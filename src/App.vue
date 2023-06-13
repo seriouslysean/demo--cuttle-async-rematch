@@ -56,7 +56,7 @@ function onReadyPlayer(player) {
 
 function onReset() {
   console.log('resetting game');
-  [player1, player2].forEach((p) => resetTimeout(p, true));
+  [player1, player2].forEach((p) => resetTimeout(p, false));
 }
 </script>
 
